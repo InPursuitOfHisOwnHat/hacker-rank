@@ -1,0 +1,4 @@
+obj/
+bin/
+a.out
+*.code-workspace
