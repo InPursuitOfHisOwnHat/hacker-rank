@@ -50,8 +50,7 @@ namespace _25_running_time_and_complexity
             for (int i=0; i<n; i++) {
                 numbers.Add(Convert.ToInt32(Console.ReadLine()));
             }
-
-            bool prime = true;
+            
             for(int i=0; i<n; i++) {
                 if (isPrime(numbers[i])) {
                     Console.WriteLine("Prime");
